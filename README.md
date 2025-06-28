@@ -62,7 +62,7 @@ InvestFlow solves these problems with:
 ## 📸 MVP Snapshots
 
 **Home Page**  
-![Home Page](https://your-screenshot-link.com/home)
+![Home Page](https://github.com/PARTHSHARMA4010/ScoopNSlap/issues/1#issue-3184637383)
 
 **Charities Page**  
 ![Charities Page](https://your-screenshot-link.com/charities)
