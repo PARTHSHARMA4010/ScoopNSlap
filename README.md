@@ -1,112 +1,108 @@
-# 🚀 EmpowerWork: AI-Powered Inclusive Job Platform for PwDs
+🚀 InvestFlow: AI-Powered Micro-Investment & Charity Platform
+InvestFlow is a decentralized platform that helps users automatically invest small amounts in crypto and donate a portion of their investments or profits to charity. It combines programmable wallets, autonomous agents, AI personalization, and decentralized storage to create a transparent and impactful investment experience — making finance a force for good.
 
-EmpowerWork is an AI-driven platform designed to bridge the employment gap for Persons with Disabilities (PwDs) in India. It provides accessible job skills training, personalized career guidance, inclusive job listings, and tools for employers to promote inclusive hiring — all within a unified and accessible ecosystem.
+📌 Table of Contents
+🌟 Inspiration
 
----
+🔍 Problem Statement
 
-## 📌 Table of Contents
+💡 Our Solution
 
-- [🌟 Inspiration](#-inspiration)
-- [🔍 Problem Statement](#-problem-statement)
-- [💡 Our Solution](#-our-solution)
-- [🧠 Key Features](#-key-features)
-- [📸 MVP Snapshots](#-mvp-snapshots)
-- [💻 Technologies Used](#-technologies-used)
-- [📊 Impact and Scalability](#-impact-and-scalability)
+🧠 Key Features
 
----
+📸 MVP Snapshots
 
-## 🌟 Inspiration
+💻 Technologies Used
 
-This idea was inspired by **Pranam Srivastava**, our visually impaired teammate, former AI Intern at Infosys, and AI/ML Lead at GDG IIIT Kota. Despite his exceptional coding and AI skills, he faces major hurdles in accessing job platforms and training resources due to accessibility gaps. His journey and challenges made us realize how important inclusive digital solutions are for millions of PwDs.
+📊 Impact and Scalability
 
----
+🌟 Inspiration
+While investing and donating are often treated as separate financial decisions, we believe they can be unified. Inspired by the rise of programmable wallets and AI agents, we envisioned a platform that makes micro-investing effortless and giving automated — especially for users who want to make an impact without complexity or high capital.
 
-## 🔍 Problem Statement
+🔍 Problem Statement
+Many users face barriers such as:
 
-Millions of PwDs in India face barriers like:
+Inconsistency in saving or investing
 
-- Lack of accessible job skills training (incompatible with assistive tech)
-- Limited personalized career guidance
-- Bias in hiring and inaccessible work environments
-- No centralized inclusive job platform
+No easy way to automate giving from investment profits
 
-Despite government efforts, the employment gap remains due to the absence of AI-driven, accessibility-first solutions.
+Lack of trust and transparency in how donations are used
 
----
+Complex and fragmented financial tools with no integration
 
-## 💡 Our Solution
+💡 Our Solution
+InvestFlow solves these problems with:
 
-EmpowerWork aims to solve these problems through:
+✅ CDP Wallets for automated investing, donating, and reinvesting
+✅ AI Agents that track balances, execute logic, and manage risk
+✅ x402 Pay for micro-payment-triggered file storage
+✅ Akash Chatbot to guide users through setup and finance concepts
+✅ IPFS + Pinata for transparent, verifiable donation records
+✅ Personal Dashboard to track portfolio growth and social impact
 
-✅ **AI-Generated Accessible Training** (text, audio, video)  
-✅ **AI Career Counselor Chatbot** for personalized guidance  
-✅ **Inclusive Job Board** with accessibility filters  
-✅ **Resume Builder** powered by AI  
-✅ **Employer Toolkit** for accommodation and inclusive practices  
-✅ **Gamified Learning** for motivation  
-✅ **Impact Tracker** using AI insights  
+🧠 Key Features
+Automated Micro-Investment Rules
 
----
+Profit-Based Donation Logic
 
-## 🧠 Key Features
+Transparent Charity Wallets
 
-- AI Job Skills Training (multi-format)
-- AI Career Counselor (voice & multilingual)
-- Accessible Job Board (filters by accessibility needs)
-- AI Resume & Cover Letter Generator
-- Employer Dashboard with guides
-- Gamification: Badges, Progress, Certificates
-- Real-time Impact Tracker
-- Community & Peer Networking (Coming soon)
+AI Chatbot (Akash Chat API)
 
----
+Pay-to-Pin Receipts via x402
 
+Impact Summaries via AI (Amazon Bedrock)
 
-## 📸 MVP Snapshots
+CDP Wallet Automation via AgentKit
 
-Home Page - 
-![image](https://github.com/user-attachments/assets/81bdb512-736d-4b02-a208-f9cd0e8cc368)
+Personalized User Dashboard
 
-Job Board - 
-![image](https://github.com/user-attachments/assets/3a3259eb-6830-4361-b6fc-6659388578fc)
+📸 MVP Snapshots
+Home Page –
 
-Training - 
-![image](https://github.com/user-attachments/assets/479c63ff-598e-4572-837a-b4ee8f2d3f2d)
+Charities Page –
 
+Dashboard –
 
-**The hosted link of the MVP is - [EmpowerWork](http://precise-divine-lab.ngrok-free.app)**
+Live Demo – InvestFlow
 
+💻 Technologies Used
+🖥️ Frontend:
+React.js, Next.js – Dynamic and performant UI
 
----
+Tailwind CSS, ShadCN/UI – Responsive design
 
-## 💻 Technologies Used
+Ethers.js, Web3Modal – Wallet connection and interaction
 
-### 🖥️ Frontend:
-- **React.js**, **Next.js** – SEO-friendly, performant UI
-- **Tailwind CSS**, **ShadCN/UI**, **Lucide Icons** – Accessible and responsive design
+🤖 Automation & Agents:
+CDP Wallet – Smart programmable wallet for auto-investing
 
-### 🧠 Backend & AI:
-- **Node.js**, **Express.js** – RESTful APIs
-- **Google Gemini API** – AI-based content generation and chatbot
-- **AI Resume Parsing** – Tailored job matching
+AgentKit – Agent that executes investment and donation rules
 
-### 📦 Database & Storage:
-- **Firebase** – Authentication and data handling
-- **ChromaDB** – Vector search for skill-job mapping
-- **Google Cloud Storage** – Media file handling (TTS, STT)
+x402 Pay – Micro-payment to trigger IPFS pinning
 
-### 🔉 Additional Tech:
-- **Google TTS/STT** – Multimodal interaction
-- **WCAG Accessibility Compliance**
+🧠 AI & Chat:
+Amazon Bedrock – AI-generated impact summaries (planned)
 
----
+Akash Chat API – AI chatbot for onboarding and help
 
+📦 Decentralized Storage:
+Pinata + IPFS – Stores donation receipts and summaries
 
-## 📊 Impact and Scalability
+JSON Receipts – Verifiable donation metadata
 
-- Designed to integrate with **LinkedIn** and other job platforms
-- Potential for **government and NGO collaborations**
-- Built to **scale with cloud-native tools** (Google Cloud, Firebase)
-- Promotes **employment equity** for over **2.68 crore PwDs in India**
+🧪 Backend & APIs:
+Firebase / Supabase – Auth and backend logic
 
+CoinGecko API – Crypto price feeds and tracking
+
+📊 Impact and Scalability
+Scales for users with low investment capacity
+
+Enables high-trust donation visibility through IPFS
+
+Empowers crypto users to automate good with minimal setup
+
+Built for hackathon extensibility and real-world deployment
+
+Designed to work across Ethereum / Polygon and integrate with more DeFi tools
